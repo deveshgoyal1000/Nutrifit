@@ -1,4 +1,4 @@
-# mFoodie-calorie-finder
+# Foodie-Calorie-Finder
 
 ## Overview
 
