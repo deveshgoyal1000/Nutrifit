@@ -27,7 +27,11 @@ SECRET_KEY = 'django-insecure-2cw+cn1ik%#l&o%jks$u^wp*mv0dd63r4$3z(h-5yt39k3og&@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['*']
+=======
+ALLOWED_HOSTS = []
+>>>>>>> 9535bebd51aa49947c87e6b9ddfe22fcbe710eb5
 
 
 # Application definition
@@ -120,8 +124,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
+<<<<<<< HEAD
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+=======
+STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+>>>>>>> 9535bebd51aa49947c87e6b9ddfe22fcbe710eb5
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'foodie/static/')
 ]
